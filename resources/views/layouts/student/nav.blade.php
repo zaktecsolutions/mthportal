@@ -17,11 +17,8 @@
            <!--<a class="nav-link" href="#">Sign out</a>--><!--
         </li> -->
                     <li class="nav-item text-nowrap dropdown">
-                        <a id="teacher" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><!-- Changes Here-->
-                            Teacher LogIn <span class="caret"></span>
-                        </a>
                         <a id="student" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><!-- Changes Here-->
-                            Student LogIn <span class="caret"></span>
+                            Sign Out <span class="caret"></span>
                         </a>
 
                         <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
