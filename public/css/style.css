@@ -11,3 +11,61 @@
     body {
         height: 100%;
     }
+
+    img.maths-logo {
+	    vertical-align: middle;
+	    border-style: none;
+	    width: 200px;
+	    margin-left: 15px;
+	    margin-top: 10px;
+	}
+	a#teacher {
+	    border: 2px solid #fff;
+	    color: #fff;
+	    font-size: 16px;
+	    padding: 5px 20px 5px 20px;
+	    margin: 15px;
+	}
+	a#student {
+	    border: 2px solid #fff;
+	    color: #fff;
+	    font-size: 16px;
+	    padding: 5px 20px 5px 20px;
+	}
+	nav.navbar.menu.navbar-dark.fixed-top.bg-dark.p-2 {
+	    webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	    box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+	    margin-top: 63px;
+	    display: flex;
+	    flex-wrap: wrap;
+	    text-align: center;
+	    justify-content: center;
+	}
+	nav.col-md-2.d-none.d-md-block.bg-light.sidebar {
+	    margin-top: 80px;
+	}
+
+     ul.dropdown-menu.dropdown-menu-right.mt-2.show {
+            width: 500px;
+        }
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .top-navbar-admin a.nav-link {
+        color: #b5b4b4;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .main {
+	    margin-top: 60px;
+	  }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
