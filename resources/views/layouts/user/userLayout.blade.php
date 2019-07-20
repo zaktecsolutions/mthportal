@@ -18,7 +18,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('public/css/style.css')}}">
 
     <style type="text/css">
         ul.dropdown-menu.dropdown-menu-right.mt-2.show {

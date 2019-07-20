@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0"><!-- Changes Here-->
-      <img class="maths-logo" src="{{asset('/images/mathstutorhelplogo.png')}}">
+      <img class="maths-logo" src="{{asset('public/images/mathstutorhelplogo.png')}}">
       <!-- <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a> -->
       <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
       <ul class="navbar-nav px-3">
@@ -17,10 +17,10 @@
            <!--<a class="nav-link" href="#">Sign out</a>--><!--
         </li> -->
                     <li class="nav-item text-nowrap dropdown">
-                        <a id="teacher" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><!-- Changes Here-->
+                        <a id="teacher" href="teacher"><!-- Changes Here-->
                             Teacher LogIn <span class="caret"></span>
                         </a>
-                        <a id="student" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre><!-- Changes Here-->
+                        <a id="student" href="student"><!-- Changes Here-->
                             Student LogIn <span class="caret"></span>
                         </a>
 
@@ -40,7 +40,7 @@
     <nav class="navbar menu navbar-dark fixed-top bg-dark  p-2"><!-- Changes Here-->
 	    <ul class="nav px-3 top-navbar-admin">
 	            <li class="nav-item text-nowrap active"><a class="nav-link" href="">Home</a></li>
-	            <li class="nav-item text-nowrap"><a class="nav-link" href="">Admin</a></li>
+	            <li class="nav-item text-nowrap"><a class="nav-link" href="admin">Admin</a></li>
 	            <li class="nav-item text-nowrap"><a class="nav-link" href="#">Contact US</a></li>
 	            <li class="nav-item text-nowrap"><a class="nav-link" href="#">More</a></li>
 	          </ul>

@@ -1,5 +1,5 @@
  <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <img class="maths-logo" src="{{asset('/images/mathstutorhelplogo.png')}}">
+      <img class="maths-logo" src="{{asset('public/images/mathstutorhelplogo.png')}}">
       <!-- <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a> -->
       
          
