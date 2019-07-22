@@ -11,7 +11,34 @@
     body {
         height: 100%;
     }
-
+    .fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    padding-bottom: 50px;
+	}
+    @media (max-width: 480px){
+		.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    padding-bottom: 0px;
+	}
+	}
+	@media (max-width: 320px){
+		.fixed-top {
+	    position: fixed;
+	    top: 0;
+	    right: 0;
+	    left: 0;
+	    z-index: 1030;
+	    padding-bottom: 0px;
+	}
+	}
     img.maths-logo {
 	    vertical-align: middle;
 	    border-style: none;
@@ -61,6 +88,17 @@
         margin-right: 10px;
 	  }
 	}
+	@media (max-width: 360px){
+			a#student {
+		    border: 2px solid #fff;
+		    color: #fff;
+		    font-size: 16px;
+		    padding: 5px 20px 5px 20px;
+		    float: left;
+		    margin-top: 15px;
+		    margin-left: 15px;
+		}
+	}
 	@media (max-width: 320px){
 			a#student {
 		    border: 2px solid #fff;
@@ -74,24 +112,27 @@
 	}
 	ul.nav.px-3.top-navbar-admin {
 	    margin-left: 230px;
-	    margin-top: 100px;
+	    margin-top: 48px;
 	    margin-bottom: 10px;
 	    display: flex;
+	    position: absolute;
 	}
 	@media (max-width: 1024px){
 		ul.nav.px-3.top-navbar-admin{
 		    margin-left: 70px;
-		    margin-top: 100px;
+		    margin-top: 48px;
 		    margin-bottom: 10px;
 		    display: flex;
+		    position: absolute;
 	  }
 	}
 	@media (max-width: 768px){
 		ul.nav.px-3.top-navbar-admin{
 		    margin-left: -40px;
-		    margin-top: 100px;
+		    margin-top: 48px;
 		    margin-bottom: 10px;
 		    display: flex;
+		    position: absolute;
 	  }
 	}
 	@media (max-width: 480px){
@@ -112,18 +153,24 @@
 	}
 	ul.navbar-nav.px-3 {
 	    float: right;
-	    margin-top: -90px;
+	    margin-top: -10px;
 	}
 	@media (max-width: 480px){
 		ul.navbar-nav.px-3 {
 		    float: none;
-		    margin-top:15px;
+		    margin-top: 50px;
+	 }
+	}
+	@media (max-width: 480px){
+		ul.navbar-nav.px-3 {
+		    float: none;
+		    margin-top: 90px;
 	 }
 	}
 	@media (max-width: 320px){
 		ul.navbar-nav.px-3 {
 		    float: none;
-		    margin-top:15px;
+		    margin-top:85px !important;
 	 }
 	}
 	a#teacher {
