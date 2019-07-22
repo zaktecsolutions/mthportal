@@ -36,6 +36,25 @@
           font-size: 3.5rem;
         }
       }
+      footer.footer {
+        position: absolute;
+        bottom: 0;
+        background: #343a40;
+        width: 100%;
+        padding: 20px;
+    }
+        span.toc {
+            float: right;
+        }
+        .toc a {
+            color: #b5b4b4;
+        }
+        @media (max-width: 500px) {
+            footer.footer {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
     </style>
     <!-- Custom styles for this template -->
     <link href="{{asset('public/css/dashboard.css')}}" rel="stylesheet">
@@ -51,6 +70,13 @@
       @yield('content')
     </div>
   </div>
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted copyright">Copyright &copy; 2019 Mathstutorhelp.</span>
+        <span class="toc"><a href="">Terms and Conditions</a></span>
+      </div>
+    </footer>
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="{{ asset('public/js/bootstrap.bundle.min.js') }}"</script>
