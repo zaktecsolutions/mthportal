@@ -8,7 +8,7 @@
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  	<ul class="nav px-3 top-navbar-admin">
-	            <li class="nav-item text-nowrap active"><a class="nav-link" href="">Home</a></li>
+	            <li class="nav-item text-nowrap active"><a class="nav-link" href="{!! url('/'); !!}">Home</a></li>
 	            <li class="nav-item text-nowrap"><a class="nav-link" href="admin">Admin</a></li>
 	            <li class="nav-item text-nowrap"><a class="nav-link" href="#">Contact US</a></li>
 	            <li class="nav-item text-nowrap"><a class="nav-link" href="#">More</a></li>
@@ -27,10 +27,9 @@
 		           <!--<a class="nav-link" href="#">Sign out</a>--><!--
 		        </li> -->
 		                    <li class="nav-item text-nowrap dropdown">
-		                        <a id="teacher" href="teacher"><!-- Changes Here-->
+		                       <a id="teacher" href="teacher"><!-- Changes Here-->
 									Sign Out <span class="caret"></span>
 		                        </a>
-
 		                        <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 		                            <a class="dropdown-item" href="{{ route('logout') }}"
 		                               onclick="event.preventDefault();

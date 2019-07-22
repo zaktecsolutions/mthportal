@@ -5,8 +5,8 @@
          
            
           <ul class="nav px-3 top-navbar-admin">
-            <li class="nav-item text-nowrap active"><a class="nav-link" href="">Home</a></li>
-            <li class="nav-item text-nowrap"><a class="nav-link" href="">Admin</a></li>
+            <li class="nav-item text-nowrap active"><a class="nav-link" href="{!! url('/'); !!}">Home</a></li>
+            <li class="nav-item text-nowrap"><a class="nav-link" href="admin">Admin</a></li>
             <li class="nav-item text-nowrap"><a class="nav-link" href="#">Contact US</a></li>
             <li class="nav-item text-nowrap"><a class="nav-link" href="#">More</a></li>
           </ul>

@@ -81,13 +81,12 @@
 	    float: right;
 	}
 	@media (max-width: 480px){
-		ul.navbar-nav.px-3 {
-	    float: none !important;
-	    margin-top: 15px;
-        margin-bottom: 20px;
-        margin-right: 10px;
-	  }
-	}
+		    ul.navbar-nav.px-3 {
+		    float: none;
+		    margin-top: 50px;
+		    text-align: center;
+		  }
+		}
 	@media (max-width: 360px){
 			a#student {
 		    border: 2px solid #fff;
@@ -119,7 +118,7 @@
 	}
 	@media (max-width: 1024px){
 		ul.nav.px-3.top-navbar-admin{
-		    margin-left: 70px;
+		    margin-left: 100px;
 		    margin-top: 48px;
 		    margin-bottom: 10px;
 		    display: flex;
@@ -135,17 +134,43 @@
 		    position: absolute;
 	  }
 	}
+	@media only screen
+	and (min-device-width : 700px)
+	and (max-device-width : 768px) {
+		 ul.nav.px-3.top-navbar-admin {
+	    margin-left: 150px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	  }
+	}
+	@media only screen
+	and (min-device-width : 600px)
+	and (max-device-width : 700px) {
+		 ul.nav.px-3.top-navbar-admin {
+	    margin-left: 70px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	  }
+	}
+	@media only screen
+	and (min-device-width : 480px)
+	and (max-device-width : 600px) {
+		 ul.nav.px-3.top-navbar-admin {
+	    margin-left: 70px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	  }
+	}
 	@media (max-width: 480px){
-		ul.nav.px-3.top-navbar-admin{
-		    margin-left: 0;
-		    margin-top: 0;
-		    margin-bottom: 0;
-		    display: left;
+	    ul.nav.px-3.top-navbar-admin {
+	    margin-left: 40px;
+	    margin-top: 0;
+	    margin-bottom: 0;
 	  }
 	}
 	@media (max-width: 320px){
 		ul.nav.px-3.top-navbar-admin{
-		    margin-left: 0;
+		    margin-left: 40px;
 		    margin-top: 0;
 		    margin-bottom: 0;
 		    display: left;
@@ -155,16 +180,30 @@
 	    float: right;
 	    margin-top: -10px;
 	}
-	@media (max-width: 480px){
+	@media only screen
+	and (min-device-width : 480px)
+	and (max-device-width : 768px) {
 		ul.navbar-nav.px-3 {
 		    float: none;
 		    margin-top: 50px;
+		    margin-bottom: 25px;
+		    text-align: center;
 	 }
 	}
 	@media (max-width: 480px){
 		ul.navbar-nav.px-3 {
 		    float: none;
+		    margin-top: 50px;
+		    margin-bottom: 25px;
+	 }
+	}
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		ul.navbar-nav.px-3 {
+		    float: none;
 		    margin-top: 90px;
+		    margin-bottom: 25px;
 	 }
 	}
 	@media (max-width: 320px){
@@ -196,7 +235,7 @@
 	    justify-content: center;
 	}
 	nav.col-md-2.d-none.d-md-block.bg-light.sidebar {
-	    margin-top: 80px;
+	    margin-top: 58px;
 	}
 
      ul.dropdown-menu.dropdown-menu-right.mt-2.show {
