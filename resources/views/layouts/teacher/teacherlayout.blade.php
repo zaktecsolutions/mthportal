@@ -48,7 +48,12 @@
     </style>
 </head>
 <body>
-  @include('layouts.teacher.nav')
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            @include('layouts.teacher.sidebar')
+          </nav>
+         @include('layouts.teacher.nav')
     <div class="main">
       <div class="container">
         @yield('content')
