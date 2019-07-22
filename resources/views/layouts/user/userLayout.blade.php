@@ -38,8 +38,8 @@
         font-weight: 500;
       }
       .main {
-	    margin-top: 60px;
-	  }
+		    margin-top: 90px;
+		}
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
